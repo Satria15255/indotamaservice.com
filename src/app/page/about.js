@@ -2,8 +2,9 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
-const about = () => {
+const About = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }} // Awalnya transparan dan turun 50px
@@ -16,7 +17,7 @@ const about = () => {
           ABOUT <span className="text-blue-400">US</span>
         </h1>
         <div className="flex grid grid-cols-1 md:grid-cols-2 justify-center mt-2 ">
-          <img src="/assets/about.jpg" alt="About Image" className="w-full  mt-16" />
+          <Image src="/assets/about.jpg" alt="About Image" className="w-full  mt-16" />
           <div className="flex flex-col justify-center">
             <p className="text-xl font-bold py-3">Trusted AC Service</p>
             <p className="max-w-xl text-sm xl:text-lg pb-3">
@@ -33,4 +34,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

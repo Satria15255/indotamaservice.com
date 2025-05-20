@@ -5,7 +5,7 @@ import { FaAlignJustify } from "react-icons/fa";
 import FadeInFromTop from "./fadeinfromtop";
 import React from "react";
 
-const navbar = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -64,4 +64,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;

@@ -4,7 +4,7 @@ import React from "react";
 import service from "../datas/service";
 import { motion } from "framer-motion";
 
-const services = () => {
+const Services = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }} // Awalnya transparan dan turun 50px
@@ -33,4 +33,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;

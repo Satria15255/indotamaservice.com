@@ -4,7 +4,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-const contact = () => {
+const Contact = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }} // Awalnya transparan dan turun 50px
@@ -56,4 +56,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

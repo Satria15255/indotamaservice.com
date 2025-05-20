@@ -2,8 +2,9 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
-const home = () => {
+const Home = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }} // Awalnya transparan dan turun 50px
@@ -19,10 +20,10 @@ const home = () => {
             <button className="bg-blue-400 text-white py-4 w-full px-4 ">Whatsapp</button>
           </div>
         </div>
-        <img src="/assets/home2.jpg" alt="Home Image" className="w-full order-1 md:order-2" />
+        <Image src="/assets/home2.jpg" alt="Home Image" className="w-full order-1 md:order-2" />
       </div>
     </motion.div>
   );
 };
 
-export default home;
+export default Home;

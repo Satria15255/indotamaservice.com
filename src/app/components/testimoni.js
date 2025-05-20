@@ -8,7 +8,7 @@ import testimoni from "../datas/testimoni";
 // Import Swiper styles
 import "swiper/css";
 
-export default () => {
+const Testimoni = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }} // Awalnya transparan dan turun 50px
@@ -42,3 +42,5 @@ export default () => {
     </motion.div>
   );
 };
+
+export default Testimoni;

@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const footer = () => {
+const Footer = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }} // Awalnya transparan dan turun 50px
@@ -48,4 +48,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
