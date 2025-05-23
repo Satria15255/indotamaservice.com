@@ -17,19 +17,13 @@ const Navbar = () => {
           </h1>
           <ul className="flex hidden md:flex space-x-4 font-bold">
             <li className="hover:text-blue-500 text-md xl:text-xl transition duration-100">
-              <a href="#">Home</a>
+              <a href="#">Beranda</a>
             </li>
             <li className="hover:text-blue-500 text-md xl:text-xl transition duration-100">
-              <a href="#">About</a>
+              <a href="#">Tentang</a>
             </li>
             <li className="hover:text-blue-500 text-md xl:text-xl transition duration-100">
-              <a href="#">Services</a>
-            </li>
-            <li className="hover:text-blue-500 text-md xl:text-xl transition duration-100">
-              <a href="#">Testimoni</a>
-            </li>
-            <li className="hover:text-blue-500 text-md xl:text-xl transition duration-100">
-              <a href="#">Contact</a>
+              <a href="#">Layanan</a>
             </li>
           </ul>
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden z-50">

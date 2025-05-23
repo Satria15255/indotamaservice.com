@@ -14,13 +14,13 @@ const Home = () => {
     >
       <div className="flex h-screen grid grid-cols-1 md:grid-cols-2 mt-17 items-center  p-4 justify-center">
         <div className="flex flex-col order-2 md:order-1">
-          <h1 className="text-5xl xl:text-7xl font-bold text-blue-400 py-4">Trusted AC Service</h1>
-          <p className="max-w-xl text-gray-500 text:xs md:text-lg xl:text-xl">We provide AC maintenance, repair and installation with experienced technicians.</p>
+          <h1 className="text-4xl xl:text-6xl font-bold text-blue-400 py-4">Servis AC Terpercaya</h1>
+          <p className="max-w-xl text-gray-500 text:xs md:text-lg xl:text-xl">Kami menyediakan perawatan, perbaikan dan pemasangan AC dengan teknisi berpengalaman.</p>
           <div className="bg-blue-500 pb-3 w-2/5 mt-3">
             <button className="bg-blue-400 text-white py-4 w-full px-4 ">Whatsapp</button>
           </div>
         </div>
-        <Image src="/assets/home2.jpg" alt="Home Image" className="w-full order-1 md:order-2" />
+        <Image src="/assets/home2.jpg" alt="Home Image" width="800" height="800" priority className=" order-1 md:order-2" />
       </div>
     </motion.div>
   );

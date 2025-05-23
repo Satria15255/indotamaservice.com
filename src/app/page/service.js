@@ -14,7 +14,7 @@ const Services = () => {
     >
       <div className="flex flex-col p-4 justify-center items-center mb-8">
         <p className="text-4xl font-bold mb-8">
-          SERVI<span className="text-blue-400">CE</span>
+          LAYA<span className="text-blue-400">NAN</span>
         </p>
         <div>
           <div className="container grid grid-cols-1 md:grid-cols-2 gap-4 ">
@@ -23,7 +23,7 @@ const Services = () => {
                 <div className="text-center text-5xl rounded-full flex justify-center mb-5 ">{service.icon}</div>
                 <h2 className="text-lg xl:text-xl font-semibold">{service.title}</h2>
                 <p className="max-w-lg text-xs xl:text-sm py-4">{service.description}</p>
-                <p className="text-xl text-blue-400 font-bold hover:underline">Answer</p>
+                <p className="text-xl text-blue-400 font-bold hover:underline">Tanyakan</p>
               </div>
             ))}
           </div>

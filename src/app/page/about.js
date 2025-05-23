@@ -14,18 +14,20 @@ const About = () => {
     >
       <div className=" grid grid-cols-1 items-center p-4 ">
         <h1 className="text-4xl text-center font-bold ">
-          ABOUT <span className="text-blue-400">US</span>
+          TENTANG <span className="text-blue-400">KAMI</span>
         </h1>
+
         <div className="flex grid grid-cols-1 md:grid-cols-2 justify-center mt-2 ">
-          <Image src="/assets/about.jpg" alt="About Image" className="w-full  mt-16" />
+          <Image src="/assets/about.jpg" alt="About Image" width="800" height="800" className="w-full  mt-16" priority />
           <div className="flex flex-col justify-center">
-            <p className="text-xl font-bold py-3">Trusted AC Service</p>
+            <p className="text-xl font-bold py-3">Servis AC Terpercaya</p>
             <p className="max-w-xl text-sm xl:text-lg pb-3">
-              We are a trusted AC service provider committed to providing high-quality services to our customers. With a team of trained and experienced technicians, we are ready to provide the best solutions for all your AC maintenance and
-              repair needs. We put customer safety, comfort, and satisfaction as our top priorities in every ste p of our service. Trust your AC maintenance to us for optimal results and excellent AC performance all the time.
+              Kami adalah penyedia layanan AC terpercaya yang berkomitmen untuk memberikan layanan berkualitas tinggi kepada pelanggan kami. Dengan tim teknisi yang terlatih dan berpengalaman, kami siap memberikan solusi terbaik untuk semua
+              kebutuhan perawatan dan perbaikan AC Anda. Kami mengutamakan keselamatan, kenyamanan, dan kepuasan pelanggan dalam setiap langkah layanan kami. Percayakan perawatan AC Anda kepada kami untuk hasil yang optimal dan kinerja AC
+              yang sangat baik setiap saat.
             </p>
             <div className="bg-blue-500 pb-3 w-2/5 mt-3">
-              <button className="bg-blue-400 text-white py-4 w-full px-4 ">Answer</button>
+              <button className="bg-blue-400 text-white py-4 w-full px-4 ">Tanyakan</button>
             </div>
           </div>
         </div>
