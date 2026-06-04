@@ -13,20 +13,21 @@ const About = () => {
       viewport={{ once: true }}
     >
       <div className=" grid grid-cols-1 items-center p-4 py-9">
-        <h1 className="text-4xl text-center font-bold ">
-          Who's <span className="text-blue-400">We? </span>
-        </h1>
-
         <div className="flex grid grid-cols-1 md:grid-cols-2 justify-center mt-2 ">
-          <Image src="/assets/about.jpg" alt="About Image" width="800" height="800" className="w-full  mt-16" priority />
-          <div className="flex flex-col justify-center">
+          <div className="p-3 flex justify-center">
+            <img src="/assets/aboutCompany.jpg" alt="About Image" className="w-4/5 h-auto rounded-4xl" />
+          </div>
+          <div className="flex flex-col justify-between">
+            <h1 className="text-4xl font-bold ">
+              Who's <span className="text-blue-400">Indotamaservices? </span>
+            </h1>
             <p className="text-xl font-bold py-3">Trusted AC Services</p>
-            <p className="max-w-xl text-sm xl:text-lg pb-3">
+            <p className="text-sm xl:text-lg pb-3">
               We are a trusted AC service provider committed to providing high-quality service to our customers. With a team of experienced and knowledgeable technicians, we are ready to provide the best solutions for all your AC
               maintenance and repair needs. We prioritize customer safety, comfort, and satisfaction in every step of our service. Trust your AC maintenance to us for optimal results and excellent performance at all times.
             </p>
-            <div className="bg-blue-500 pb-3 w-2/5 mt-3">
-              <button className="bg-blue-400 text-white py-4 w-full px-4 ">Consultation</button>
+            <div className="w-2/5 mt-3">
+              <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4 w-full px-4  ">Consultation</button>
             </div>
           </div>
         </div>
