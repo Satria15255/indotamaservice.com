@@ -12,12 +12,12 @@ const About = () => {
       transition={{ duration: 1.0 }} // Animasi selama 1 detik
       viewport={{ once: true }}
     >
-      <div className=" grid grid-cols-1 items-center p-4 py-9">
+      <div className=" grid grid-cols-1 items-center py-9">
         <div className="flex grid grid-cols-1 md:grid-cols-2 justify-center mt-2 ">
-          <div className="p-3 flex justify-center">
-            <img src="/assets/aboutCompany.jpg" alt="About Image" className="w-4/5 h-auto rounded-4xl" />
+          <div className="flex justify-center">
+            <img src="/assets/aboutCompany.jpg" alt="About Image" className="w-full h-auto rounded-r-4xl" />
           </div>
-          <div className="flex flex-col justify-between">
+          <div className="flex flex-col justify-between p-6">
             <h1 className="text-4xl font-bold ">
               Who's <span className="text-blue-400">Indotamaservices? </span>
             </h1>
