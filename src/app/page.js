@@ -1,6 +1,7 @@
 import Testimoni from "./components/testimoni";
 import Navbar from "./components/navbar";
 import Hero from "./page/home";
+import CompanyStatistic from "./page/CompanyStatistic";
 import About from "./page/about";
 import Service from "./page/service";
 import Contact from "./page/contact";
@@ -13,6 +14,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
+      <CompanyStatistic />
       <About />
       <Service />
       <Testimoni />

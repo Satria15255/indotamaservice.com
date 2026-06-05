@@ -13,7 +13,7 @@ const About = () => {
       viewport={{ once: true }}
     >
       <div className=" grid grid-cols-1 items-center py-9">
-        <div className="flex grid grid-cols-1 md:grid-cols-2 justify-center mt-2 ">
+        <div className="flex grid grid-cols-1 md:grid-cols-2 justify-center">
           <div className="flex justify-center">
             <img src="/assets/aboutCompany.jpg" alt="About Image" className="w-full h-auto rounded-r-4xl" />
           </div>
