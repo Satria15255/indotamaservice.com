@@ -13,39 +13,63 @@ const Contact = () => {
       viewport={{ once: true }}
     >
       <div className="flex flex-col p-4 mb-5 ">
-        <h1 className="text-center font-bold text-4xl m-8">CONTACT</h1>
         <div className="flex grid grid-cols-1 md:grid-cols-2 gap-4 justify-center">
-          <div className="w-full flex flex-col gap-4 mt-5">
+          <div className="w-auto flex flex-col gap-4 p-5">
+            <h1 className=" font-bold text-4xl">Get in Touch</h1>
             <div>
-              {" "}
-              <p className="text-xl xl:text-2xl font-bold bg-blue-200 py-3 px-2 rounded-lg text-left">Bagaimana Cara memesan?</p>
-              <p className="text-sm xl:text-lg pl-2 text-gray-500">
-                Anda bisa memesan layanan dengan langkah-langkah berikut: Pilih layanan, hubungi kami pada nomor yang tertera, konfirmasi ketersediaan dan harga, setujui perjanjian, lakukan pembayaran, penyelesaian pemesanan, dan kami akan
-                menuju lokasi anda.
+              <p className="text-lg font-semibold">Email : </p>
+              <p>indotamaservices@gmail.com</p>
+            </div>
+            <div>
+              <p className="text-lg font-semibold">Phone : </p>
+              <p>081234567</p>
+            </div>
+            <div>
+              <p className="text-lg font-semibold">Address : </p>
+              <p>
+                Business Center Building <br />
+                Jl. Ahmad Yani No. 45
+                <br />
+                Bojonegoro, East Java 62112
+                <br />
+                Indonesia
               </p>
             </div>
             <div>
-              <p className="text-xl xl:text-2xl font-bold bg-blue-200 py-3 px-2 rounded-lg text-left">Sosial Media</p>
-              <div className="flex grid grid-cols-1 lg:grid-cols-3 lg:place-items-center gap-2 mt-3">
+              <p className="text-lg font-semibold">Follow Us</p>
+              <div className="flex gap-2 mt-3">
                 <div className="flex items-center gap-1">
                   <FaFacebook className="text-lg xl:text-3xl text-blue-500" />
-                  <p className="text-sm">Indotamaservicebjn</p>
                 </div>
                 <div className="flex items-center gap-1">
                   <FaInstagram className="text-lg xl:text-3xl text-blue-500" />
-                  <p className="text-sm">Indotamaservicebjn</p>
                 </div>
                 <div className="flex items-center gap-1">
                   <FaWhatsapp className="text-lg xl:text-3xl text-blue-500" />
-                  <p className="text-sm">+62 812-4986-1705</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="w-full flex flex-col mt-5">
-            <input type="text" placeholder="Username" className="border w-full py-2 px-2"></input>
-            <input type="text" placeholder="Layanan" className="border w-full py-2 mt-5 px-2"></input>
-            <input type="text-area" placeholder="Saran & Kritik" className="border w-full pb-32 px-2 mt-5"></input>
+
+          <div className="w-full flex flex-col gap-5 mt-5">
+            <div className="flex gap-4 w-full">
+              <div className="w-full">
+                <label>Your Name</label>
+                <input type="text" placeholder="Username" className="border w-full py-2 rounded-lg border-gray-200 px-2"></input>
+              </div>
+              <div className="w-full">
+                <label>Your Email</label>
+                <input type="email" placeholder="Email" className="border w-full py-2 rounded-lg border-gray-200 px-2"></input>
+              </div>
+            </div>
+            <div className="w-full">
+              <label>Your Services</label>
+              <input type="text" placeholder="Yout Service Chosee" className="border w-full rounded-lg border-gray-200 py-2 px-2"></input>
+            </div>
+            <div>
+              <label>Your Message</label>
+              <input type="text-area" placeholder="Message" className="border w-full rounded-lg border-gray-200 pb-32 px-2"></input>
+            </div>
             <div className="bg-blue-500 pb-2 rounded-lg w-full mt-3">
               <button className="bg-blue-400 text-white py-2 w-full rounded-lg px-4 ">Submit</button>
             </div>
