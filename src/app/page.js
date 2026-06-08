@@ -1,4 +1,4 @@
-import Testimoni from "./components/testimoni";
+import Testimoni from "./page/testimoni";
 import Navbar from "./components/navbar";
 import Hero from "./page/home";
 import CompanyStatistic from "./page/CompanyStatistic";
