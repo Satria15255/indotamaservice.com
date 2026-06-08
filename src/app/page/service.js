@@ -14,7 +14,7 @@ const Services = () => {
     >
       <div className="flex flex-col p-4 justify-center items-center mb-8">
         <p className="text-4xl font-bold mb-8">
-          LAYA<span className="text-blue-400">NAN</span>
+          Ser<span className="text-blue-400">vices</span>
         </p>
         <div>
           <div className="container grid grid-cols-1 md:grid-cols-3 gap-4 ">
