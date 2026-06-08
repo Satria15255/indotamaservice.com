@@ -1,4 +1,4 @@
-import { FaPumpSoap, FaTools, FaWrench, FaSnowflake } from "react-icons/fa";
+import { FaPumpSoap, FaTools, FaWrench, FaSnowflake, FaTruckMoving, FaCalendarCheck } from "react-icons/fa";
 
 const service = [
   {
@@ -24,6 +24,18 @@ const service = [
     title: "Tambah/isi freon AC",
     description: "Harga Mulai Rp, 225.000 Sudah Dingin Di Setiap Sudut Ruangan, menggunakan freon murni berkualitas tinggi. pengisian dilakukan dengan hati hati dan sesuai dengan tipe freon yang direkomdasikan pabrik pembuatan.",
     icon: <FaSnowflake />,
+  },
+  {
+    id: 5,
+    title: "AC Dismantling & Relocation",
+    description: "Serving dismantling and reinstallation of AC when moving house, office, or room renovation.",
+    icon: <FaTruckMoving />,
+  },
+  {
+    id: 6,
+    title: "Periodic AC Maintenance",
+    description: "Regular maintenance services to maintain optimal AC performance, save electricity, and last longer.",
+    icon: <FaCalendarCheck />,
   },
 ];
 

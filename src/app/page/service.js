@@ -17,7 +17,7 @@ const Services = () => {
           LAYA<span className="text-blue-400">NAN</span>
         </p>
         <div>
-          <div className="container grid grid-cols-1 md:grid-cols-2 gap-4 ">
+          <div className="container grid grid-cols-1 md:grid-cols-3 gap-4 ">
             {service.map((service) => (
               <div key={service.id} className="bg-white rounded-lg p-4 h-full m-2 text-center rounded shadow-xl">
                 <div className="text-center text-5xl rounded-full flex justify-center mb-5 ">{service.icon}</div>
