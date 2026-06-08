@@ -1,41 +1,34 @@
-import { FaStar } from "react-icons/fa";
-
-const testimoni = [
+const testimonials = [
   {
     id: 1,
-    name: "Andi Pratama",
-    city: "Kalitidu",
-    image: "/assets/G1.jpeg",
-    text: "“Pelayanan luar biasa! Teknisi datang tepat waktu dan hasil kerjanya rapi banget. Sekarang AC kamar adem dan gak berisik lagi.”",
+    name: "Andi",
+    role: "Homeowner, Bojonegoro",
+    text: "Excellent service! The technician arrived on time and did a very neat job. My AC is now cool and running quietly again.",
   },
   {
     id: 2,
-    name: "Fitri Aulia",
-    city: "Banjarsari",
-    image: "/assets/G5.jpeg",
-    text: "“AC saya sebelumnya gak dingin, setelah diservis jadi kayak baru. Harganya juga jujur, gak ada biaya tersembunyi. Mantap!”",
+    name: "Fitri",
+    role: "Homeowner, Bojonegoro",
+    text: "My AC wasn't cooling properly before, but after the service it feels like brand new. The pricing was honest with no hidden fees. Highly satisfied!",
   },
   {
     id: 3,
-    name: "Budi Santoso",
-    city: "Balen",
-    image: "/assets/G4.jpeg",
-    text: "“Saya panggil mereka untuk isi freon dan cuci AC. Teknisi sopan, kerja cepat, dan hasil memuaskan. Recommended!”",
+    name: "Budi",
+    role: "Business Owner, East Java",
+    text: "I booked them for a freon refill and AC cleaning. The technician was polite, worked efficiently, and delivered great results. Highly recommended!",
   },
   {
     id: 4,
-    name: "Lina Marcelina",
-    city: "Kapas",
-    image: "/assets/G3.jpeg",
-    text: "“Sudah 3 kali pakai jasa mereka dan selalu puas. AC kantor jadi dingin dan nyaman lagi. Pelayanan profesional.”",
+    name: "Lina",
+    role: "Office Manager, Bojonegoro",
+    text: "I've used their services three times and have always been satisfied. Our office AC is cool and comfortable again. Very professional service.",
   },
   {
     id: 5,
-    name: "Rudi Hartono",
-    city: "Banjarjo",
-    image: "/assets/G2.jpeg",
-    text: "“Dulu AC saya sering bocor, sekarang udah normal kembali. Proses pemesanan juga gampang dan respons cepat.”",
+    name: "Rudi",
+    role: "Store Owner, East Java",
+    text: "My AC used to leak frequently, but now it's working perfectly again. The booking process was simple, and their response was very quick.",
   },
 ];
 
-export default testimoni;
+export default testimonials;

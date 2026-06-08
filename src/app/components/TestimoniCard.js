@@ -13,10 +13,10 @@ const TestimoniCard = ({ item }) => {
         <FaStar className="text-yellow-500" />
         <FaStar className="text-yellow-500" />
       </div>
-      <p className="text-center text-xs md:text-sm mt-2">{item.text}</p>
+      <p className="text-center text-gray-500 text-xs md:text-sm mt-2">{item.text}</p>
       <div className="flex flex-col gap-2">
         <h3 className="text-xl font-semibold text-center">{item.name}</h3>
-        <p className="text-gray-500 text-sm md:text-lg text-center">{item.city}</p>
+        <p className="text-gray-500 text-sm md:text-lg text-center">{item.role}</p>
       </div>
     </div>
   );
