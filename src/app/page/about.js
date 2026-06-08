@@ -17,15 +17,25 @@ const About = () => {
           <div className="flex justify-center">
             <img src="/assets/aboutCompany.jpg" alt="About Image" className="w-full h-auto rounded-r-4xl" />
           </div>
-          <div className="flex flex-col justify-between p-6">
-            <h1 className="text-4xl font-bold ">
-              Who's <span className="text-blue-400">Indotamaservices? </span>
+          <div className="flex flex-col justify-between p-6 w-auto">
+            <p className="flex justify-center items-center text-sm bg-blue-100 w-30 rounded-full py-1">About Company</p>
+            <h1 className="text-5xl font-bold ">
+              Trust your AC maintenance <br /> to the experts.
             </h1>
-            <p className="text-xl font-bold py-3">Trusted AC Services</p>
             <p className="text-sm xl:text-lg pb-3">
-              We are a trusted AC service provider committed to providing high-quality service to our customers. With a team of experienced and knowledgeable technicians, we are ready to provide the best solutions for all your AC
-              maintenance and repair needs. We prioritize customer safety, comfort, and satisfaction in every step of our service. Trust your AC maintenance to us for optimal results and excellent performance at all times.
+              Indotama Service offers a trusted solution for your AC service and maintenance needs. We handle a wide range of needs, from AC cleaning and repairs to freon refills and installation of new units, all with professional
+              workmanship.
             </p>
+            <div className=" flex gap-8">
+              <div className="flex flex-col gap-2">
+                <p className="text-5xl font-bold">10+</p>
+                <p className="text-sm">Operational Area</p>
+              </div>
+              <div className="flex flex-col gap-2">
+                <p className="text-5xl font-bold">100+</p>
+                <p className="text-sm">Location Handled</p>
+              </div>
+            </div>
             <div className="w-2/5 mt-3">
               <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4 w-full px-4  ">Consultation</button>
             </div>
