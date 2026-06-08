@@ -23,7 +23,7 @@ const Testimoni = () => {
             What Our <span className=" text-blue-400">Clients Say</span>
           </p>
         </div>
-        <div className="w-3/5">
+        <div className="w-4/5">
           <Swiper modules={[Autoplay]} spaceBetween={50} slidesPerView={3} loop={true} autoplay={{ delay: 4000 }}>
             {testimoni.map((item) => (
               <SwiperSlide key={item.id} className="flex flex-col items-center justify-center h-auto p-4 bg-white rounded-lg shadow-xl">
