@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -49,21 +48,6 @@ const Contact = () => {
               <div>
                 <p className="text-xl font-bold">Operactional Time : </p>
                 <p className="text-sm font-bold">08:00 AM - 6:00 PM Every Day</p>
-              </div>
-            </div>
-
-            <div>
-              <p className="text-lg font-semibold">Follow Us</p>
-              <div className="flex gap-2 mt-3">
-                <div className="flex items-center gap-1">
-                  <FaFacebook className="text-lg xl:text-3xl text-blue-500" />
-                </div>
-                <div className="flex items-center gap-1">
-                  <FaInstagram className="text-lg xl:text-3xl text-blue-500" />
-                </div>
-                <div className="flex items-center gap-1">
-                  <FaWhatsapp className="text-lg xl:text-3xl text-blue-500" />
-                </div>
               </div>
             </div>
           </div>
