@@ -14,31 +14,31 @@ const Footer = () => {
       <div className="bg-blue-200 h-auto pt-8 p-5 flex flex-col justify-center ">
         <div className="flex grid grid-cols-1 md:grid-cols-3 md:place-items-center justify-center ">
           <div className="flex mt-5 pb-9 flex-col">
-            <p className="text-xl lg:text-3xl font-bold pr-8">
+            <p className="text-xl lg:text-xl font-bold pr-8">
               Indotama<span className="text-blue-500">service.</span>
             </p>
-            <p className="mt-2 text-sm lg:text-lg">PO Box 12300 Bangilan Street,</p>
-            <p className="text-sm lg:text-lg">Bojonegoro (+62) 812-4986-1705 </p>
-            <p className="text-sm lg:text-lg">indotamaservice@gmail.com</p>
+            <p className="mt-2 text-sm max-w-lg lg:text-lg">Professional air conditioning solutions for homes and businesses. Available for installation, cleaning, maintenance, and emergency repairs.</p>
           </div>
           <div className="flex mt-5 flex-col justify-center">
-            <h1 className="text-xl lg:text-3xl font-bold mb-2">Teratas</h1>
+            <h1 className="text-xl lg:text-xl font-bold mb-2">Services</h1>
             <div className="text-sm lg:text-lg">
-              <ol>Pembayaran</ol>
-              <ol>Harga</ol>
-              <ol>Pemesanan</ol>
-              <ol>Layanan</ol>
-              <ol>Kinerja</ol>
+              <ol>AC Installation</ol>
+              <ol>AC Repair</ol>
+              <ol>AC Cleaning</ol>
+              <ol>Freon refill</ol>
+              <ol>AC Dismantling & Relocation</ol>
+              <ol>Periodic AC Maintenance</ol>
             </div>
           </div>
           <div className="flex mt-5 flex-col">
-            <h1 className="text-xl lg:text-3xl font-bold mb-2">Informasi</h1>
+            <h1 className="text-xl lg:text-xl font-bold mb-2">Company</h1>
             <div className="text-sm lg:text-lg">
-              <ol>Tentang</ol>
-              <ol>Layanan</ol>
-              <ol>Pemesanan</ol>
-              <ol>Testimoni</ol>
-              <ol>Pemesanan</ol>
+              <ol>About us</ol>
+              <ol>Career</ol>
+              <ol>Partners</ol>
+              <ol>Testimonials</ol>
+              <ol>Documentation</ol>
+              <ol>Contact</ol>
             </div>
           </div>
         </div>

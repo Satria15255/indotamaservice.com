@@ -15,8 +15,8 @@ const Contact = () => {
       <div className="flex flex-col p-4 mb-5 ">
         <div className="flex grid grid-cols-1 md:grid-cols-2 gap-4 justify-center">
           <div className="w-auto flex flex-col justify-around p-5">
-            <div>
-              <h1 className=" font-bold text-4xl">Get in Touch</h1>
+            <div className="flex flex-col gap-3">
+              <h1 className="font-bold text-4xl">Get in Touch</h1>
               <p className="text-sm text-gray-600">
                 Have questions or need professional AC services? Our team is ready to help with installation, maintenance, repairs, and consultations. Contact us today and we'll get back to you as soon as possible.
               </p>
