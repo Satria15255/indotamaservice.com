@@ -14,27 +14,44 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 mb-5 ">
         <div className="flex grid grid-cols-1 md:grid-cols-2 gap-4 justify-center">
-          <div className="w-auto flex flex-col gap-4 p-5">
-            <h1 className=" font-bold text-4xl">Get in Touch</h1>
+          <div className="w-auto flex flex-col justify-around p-5">
             <div>
-              <p className="text-lg font-semibold">Email : </p>
-              <p>indotamaservices@gmail.com</p>
-            </div>
-            <div>
-              <p className="text-lg font-semibold">Phone : </p>
-              <p>081234567</p>
-            </div>
-            <div>
-              <p className="text-lg font-semibold">Address : </p>
-              <p>
-                Business Center Building <br />
-                Jl. Ahmad Yani No. 45
-                <br />
-                Bojonegoro, East Java 62112
-                <br />
-                Indonesia
+              <h1 className=" font-bold text-4xl">Get in Touch</h1>
+              <p className="text-sm text-gray-600">
+                Have questions or need professional AC services? Our team is ready to help with installation, maintenance, repairs, and consultations. Contact us today and we'll get back to you as soon as possible.
               </p>
             </div>
+            <div className="grid grid-cols-2 ">
+              <div>
+                <p className="text-xl font-bold">Chat to us : </p>
+                <p className="text-sm text-gray-600"> Our friendly team is here to help</p>
+                <p className="text-sm  font-bold">indotamaservices@gmail.com</p>
+              </div>
+              <div>
+                <p className="text-xl font-bold">Call us : </p>
+                <p className="text-sm text-gray-600">toll-free call</p>
+                <p className="text-sm font-bold">081234567</p>
+              </div>
+            </div>
+            <div className="grid grid-cols-2">
+              <div>
+                <p className="text-xl font-bold">Visit us : </p>
+                <p className="text-sm text-gray-600">Come say hello at our office</p>
+                <p className="text-sm font-bold">
+                  Business Center Building <br />
+                  Jl. Ahmad Yani No. 45
+                  <br />
+                  Bojonegoro, East Java 62112
+                  <br />
+                  Indonesia
+                </p>
+              </div>
+              <div>
+                <p className="text-xl font-bold">Operactional Time : </p>
+                <p className="text-sm font-bold">08:00 AM - 6:00 PM Every Day</p>
+              </div>
+            </div>
+
             <div>
               <p className="text-lg font-semibold">Follow Us</p>
               <div className="flex gap-2 mt-3">
