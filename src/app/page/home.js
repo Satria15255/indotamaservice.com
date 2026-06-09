@@ -12,7 +12,7 @@ const Home = () => {
       transition={{ duration: 1.0 }} // Animasi selama 1 detik
       viewport={{ once: true }}
     >
-      <div className="flex h-screen grid grid-cols-1 md:grid-cols-2 mt-17 items-center bg-white justify-center">
+      <div className="flex md:h-screen grid grid-cols-1 md:grid-cols-2 mt-17 items-center bg-white justify-center">
         <div className="w-auto p-7 flex flex-col">
           <p className="text-sm bg-blue-100 rounded-full w-50 flex justify-center items-center p-1">Stay Cool All Year Round</p>
           <h1 className="text-4xl lg:text-6xl font-bold  py-4">
@@ -22,28 +22,28 @@ const Home = () => {
           <div className=" w-2/5 mt-3">
             <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4 w-full px-4 ">Book Now</button>
           </div>
-          <div className="flex gap-9 mt-12">
-            <div className="flex items-center gap-2">
+          <div className="grid grid-cols-3 gap-9 mt-12 max-w-screen">
+            <div className="flex flex-col md:flex-row items-center gap-2">
               <PiClock size={40} />
-              <p>
+              <p className="text-sm text-center md:text-left">
                 Fast <br /> Response
               </p>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex flex-col md:flex-row items-center gap-2">
               <PiMedal size={40} />
-              <p>
+              <p className="text-sm text-center md:text-left">
                 Expert <br /> Technicians
               </p>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex flex-col md:flex-row items-center gap-2">
               <PiShieldCheckBold size={40} />
-              <p>
+              <p className="text-sm text-center md:text-left">
                 Guaranteed <br /> Satisfaction
               </p>
             </div>
           </div>
         </div>
-        <div className="w-full h-screen py-4">
+        <div className="w-full h-full py-4 pl-2">
           <img src="/assets/imageHero.png" alt="Home Image" className="w-full h-full object-cover object-center rounded-l-4xl " />
         </div>
       </div>

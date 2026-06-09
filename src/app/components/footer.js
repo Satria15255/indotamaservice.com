@@ -13,7 +13,7 @@ const Footer = () => {
       viewport={{ once: true }}
     >
       <div className="bg-blue-200 h-auto px-3 py-6 flex flex-col justify-center ">
-        <div className=" flex justify-around py-4">
+        <div className=" flex flex-col md:flex-row justify-around py-4">
           <div className="flex pb-9 flex-col">
             <p className="text-xl lg:text-3xl font-bold">
               Indotama<span className="text-blue-500">service.</span>
