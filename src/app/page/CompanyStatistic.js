@@ -16,20 +16,20 @@ const CompanyStatistic = () => {
         </div>
         <div className="flex justify-center items-center  text-semibold gap-2 border-r border-gray-300">
           <div className="bg-white rounded-full p-2">
-            <PiClipboardTextDuotone size={50} className="text-blue-900" />
+            <PiListChecksDuotone size={50} className="text-blue-900" />
           </div>
           <div className="flex flex-col">
-          <p className="text-4xl font-bold">3K+</p>
-          <p className="text-sm">Project Completed</p>
+            <p className="text-4xl font-bold">3K+</p>
+            <p className="text-sm">Project Completed</p>
           </div>
         </div>
         <div className="flex justify-center items-center  text-semibold gap-2 border-r border-gray-300">
           <div className="bg-white rounded-full p-2">
-            <PiListChecksDuotone size={50} className="text-blue-900" />
+            <PiCalendarDotsDuotone size={50} className="text-blue-900" />
           </div>
-          <div className="flex flex-col"> 
-          <p className="text-4xl font-bold">5th</p>
-          <p className="text-sm">Trusted by Clients</p>
+          <div className="flex flex-col">
+            <p className="text-4xl font-bold">5th</p>
+            <p className="text-sm">Trusted by Clients</p>
           </div>
         </div>
         <div className="flex justify-center items-center  text-semibold gap-2">
@@ -37,8 +37,8 @@ const CompanyStatistic = () => {
             <AiTwotoneLike size={50} className="text-blue-900" />
           </div>
           <div className=" flex flex-col">
-          <p className="text-5xl font-bold">99%</p>
-          <p className="text-sm">Customer Satisfaction</p>
+            <p className="text-5xl font-bold">99%</p>
+            <p className="text-sm">Customer Satisfaction</p>
           </div>
         </div>
       </div>

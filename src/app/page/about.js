@@ -3,6 +3,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { IoLocationSharp } from "react-icons/io5";
+import { TbMapStar } from "react-icons/tb";
 
 const About = () => {
   return (
@@ -18,22 +20,32 @@ const About = () => {
             <img src="/assets/aboutCompany.jpg" alt="About Image" className="w-full h-auto rounded-r-4xl" />
           </div>
           <div className="flex flex-col justify-between p-6 w-auto">
-            <p className="flex justify-center items-center text-sm bg-blue-100 w-30 rounded-full py-1">About Company</p>
+            <p className="flex justify-center items-center text-sm bg-blue-900 text-white w-50 h-9 rounded-full">About Company</p>
             <h1 className="text-5xl font-bold py-3">
-              Trust your AC maintenance <br /> to the experts.
+              Trust your AC maintenance <br /> to the <span className="text-blue-900">experts.</span>
             </h1>
             <p className="text-sm xl:text-lg py-3 text-gray-600">
               Indotama Service offers a trusted solution for your AC service and maintenance needs. We handle a wide range of needs, from AC cleaning and repairs to freon refills and installation of new units, all with professional
               workmanship.
             </p>
             <div className=" flex gap-8 py-3">
-              <div className="flex flex-col gap-2">
-                <p className="text-5xl font-bold">10+</p>
-                <p className="text-sm text-gray-600">Operational Area</p>
+              <div className="flex justify-center items-center gap-2">
+                <div className="bg-blue-100 rounded-full text-blue-900 p-2 shadow-lg">
+                  <TbMapStar size={50} />
+                </div>
+                <div className="flex flex-col gap-1">
+                  <p className="text-4xl font-bold">10+</p>
+                  <p className="text-sm text-gray-600">Operational Area</p>
+                </div>
               </div>
-              <div className="flex flex-col gap-2">
-                <p className="text-5xl font-bold">100+</p>
-                <p className="text-sm text-gray-600">Location Handled</p>
+              <div className="flex justify-center items-center gap-2">
+                <div className="bg-blue-100 rounded-full text-blue-900 p-2 shadow-lg">
+                  <IoLocationSharp size={50} />
+                </div>
+                <div className="flex flex-col gap-1">
+                  <p className="text-4xl font-bold">100+</p>
+                  <p className="text-sm text-gray-600">Location Handled</p>
+                </div>
               </div>
             </div>
             <div className="w-2/5 mt-3">

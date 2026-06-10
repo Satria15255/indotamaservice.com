@@ -14,13 +14,15 @@ const Home = () => {
     >
       <div className="flex md:h-screen grid grid-cols-1 md:grid-cols-2 bg-blue-100 justify-center">
         <div className="w-auto p-12 flex flex-col justify-center">
-          <p className="text-sm bg-blue-400 rounded-full w-50 flex justify-center items-center h-5 px-1">Stay Cool All Year Round</p>
+          <p className="text-sm bg-blue-900 text-white rounded-full w-50 flex justify-center items-center h-9 px-1">Stay Cool All Year Round</p>
           <h1 className="text-4xl lg:text-6xl font-bold  py-4">
             Fast, Reliable & Affordable Air Conditioning<span className="text-blue-900"> Services</span>
           </h1>
           <p className="max-w-xl text-gray-500 text:xs md:text-lg ">Professional air conditioning solutions for homes and businesses. Available for installation, cleaning, maintenance, and emergency repairs.</p>
           <div className=" w-2/5 mt-3">
-            <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4 w-full px-4 flex items-center justify-center gap-2">Book Now <PiArrowRightThin/> </button>
+            <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4 w-full px-4 flex items-center justify-center gap-2">
+              Book Now <PiArrowRightThin />{" "}
+            </button>
           </div>
           <div className="grid grid-cols-3 gap-9 mt-12 max-w-screen">
             <div className="flex flex-col md:flex-row items-center gap-2">
