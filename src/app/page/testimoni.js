@@ -1,12 +1,14 @@
 "use client";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
 import testimoni from "../datas/testimoni";
 import TestimoniCard from "../components/TestimoniCard";
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const Testimoni = () => {
   return (
@@ -16,20 +18,24 @@ const Testimoni = () => {
       transition={{ duration: 1.0 }} // Animasi selama 1 detik
       viewport={{ once: true }}
     >
-      <div className=" h-auto flex flex-col bg-blue-100 pb-8 items-center">
+      <div className=" h-auto flex flex-col pb-8 items-center">
         <div className="flex flex-col items-center m-8">
           <p className="text-sm font-semibold mb-2">Testimonials</p>
           <p className="text-xl text-center md:text-4xl font-bold">
             What Our <span className=" text-blue-400">Clients Say</span>
           </p>
         </div>
-        <div className="w-4/5">
+        <div className="w-full px-5 overflow-hidden">
           <Swiper
-            modules={[Autoplay]}
+            modules={[Autoplay, Pagination]}
             spaceBetween={50}
             slidesPerView={3}
             loop={true}
             autoplay={{ delay: 4000 }}
+            pagination={{
+              el: ".swiper-pagination",
+              clickable: true,
+            }}
             breakpoints={{
               0: {
                 slidesPerView: 1,
@@ -43,10 +49,12 @@ const Testimoni = () => {
             }}
           >
             {testimoni.map((item) => (
-              <SwiperSlide key={item.id} className="flex flex-col items-center justify-center h-auto p-4 bg-white rounded-lg shadow-xl">
+              <SwiperSlide key={item.id} className="pb-8">
                 <TestimoniCard item={item} />
               </SwiperSlide>
             ))}
+            {/* Navigation & Pagination */}
+            <div className="swiper-pagination"></div>
           </Swiper>
         </div>
       </div>
