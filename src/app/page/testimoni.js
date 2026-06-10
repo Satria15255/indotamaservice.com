@@ -19,12 +19,29 @@ const Testimoni = () => {
       <div className=" h-auto flex flex-col bg-blue-100 pb-8 items-center">
         <div className="flex flex-col items-center m-8">
           <p className="text-sm font-semibold mb-2">Testimonials</p>
-          <p className="text-4xl font-bold">
+          <p className="text-xl text-center md:text-4xl font-bold">
             What Our <span className=" text-blue-400">Clients Say</span>
           </p>
         </div>
         <div className="w-4/5">
-          <Swiper modules={[Autoplay]} spaceBetween={50} slidesPerView={3} loop={true} autoplay={{ delay: 4000 }}>
+          <Swiper
+            modules={[Autoplay]}
+            spaceBetween={50}
+            slidesPerView={3}
+            loop={true}
+            autoplay={{ delay: 4000 }}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+              },
+              640: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+            }}
+          >
             {testimoni.map((item) => (
               <SwiperSlide key={item.id} className="flex flex-col items-center justify-center h-auto p-4 bg-white rounded-lg shadow-xl">
                 <TestimoniCard item={item} />

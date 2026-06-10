@@ -13,14 +13,14 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 mb-5 ">
         <div className="flex grid grid-cols-1 md:grid-cols-2 gap-4 justify-center">
-          <div className="w-auto flex flex-col justify-around p-5">
+          <div className="w-auto flex flex-col justify-around md:p-5 space-y-4">
             <div className="flex flex-col gap-3">
               <h1 className="font-bold text-4xl">Get in Touch</h1>
               <p className="text-sm text-gray-600">
                 Have questions or need professional AC services? Our team is ready to help with installation, maintenance, repairs, and consultations. Contact us today and we'll get back to you as soon as possible.
               </p>
             </div>
-            <div className="grid grid-cols-2 ">
+            <div className="grid grid-cols-1 md:grid-cols-2 space-y-4">
               <div>
                 <p className="text-xl font-bold">Chat to us : </p>
                 <p className="text-sm text-gray-600"> Our friendly team is here to help</p>
@@ -32,7 +32,7 @@ const Contact = () => {
                 <p className="text-sm font-bold">081234567</p>
               </div>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 space-y-4">
               <div>
                 <p className="text-xl font-bold">Visit us : </p>
                 <p className="text-sm text-gray-600">Come say hello at our office</p>
