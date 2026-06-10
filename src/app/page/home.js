@@ -14,7 +14,7 @@ const Home = () => {
     >
       <div className="flex md:h-screen grid grid-cols-1 md:grid-cols-2 bg-blue-100 justify-center">
         <div className="w-auto p-12 flex flex-col justify-center">
-          <p className="text-sm bg-blue-400 rounded-full w-50 flex justify-center items-center p-1">Stay Cool All Year Round</p>
+          <p className="text-sm bg-blue-400 rounded-full w-50 flex justify-center items-center h-5 px-1">Stay Cool All Year Round</p>
           <h1 className="text-4xl lg:text-6xl font-bold  py-4">
             Fast, Reliable & Affordable Air Conditioning<span className="text-blue-900"> Services</span>
           </h1>
