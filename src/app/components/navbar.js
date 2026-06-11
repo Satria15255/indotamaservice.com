@@ -4,7 +4,7 @@ import { useState } from "react";
 import { FaAlignJustify } from "react-icons/fa";
 import FadeInFromTop from "./fadeinfromtop";
 import React from "react";
-import { PiUserBold } from "react-icons/pi";
+import { PiUserBold, PiArrowRightThin } from "react-icons/pi";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <FadeInFromTop>
       <div>
-        <nav className="flex justify-between bg-transparent w-full py-6 px-4 z-50  fixed top-0 ">
+        <nav className="grid grid-cols-3 justify-between bg-transparent w-full py-6 px-4 z-50  fixed top-0 ">
           {/* Logo */}
           <div>
             <h1 className="font-bold font-sans text-md md:text-2xl xl:text-3xl  ">
@@ -39,13 +39,15 @@ const Navbar = () => {
           </div>
 
           {/* Login Info */}
-          <div>
-            <button onClick={() => setIsOpen(!isOpen)} className="md:hidden z-50">
+          <div className="flex justify-end">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="md:hidden z-50"
+            >
               {isOpen ? "X" : <FaAlignJustify />}
             </button>
-            <button className="hidden md:flex items-center gap-3 text-sm lg:text-lg">
-              <PiUserBold />
-              Login / Register
+            <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4  flex items-center justify-center gap-2 w-1/2">
+              Book Now <PiArrowRightThin />{" "}
             </button>
           </div>
         </nav>

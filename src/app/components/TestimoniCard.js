@@ -2,7 +2,7 @@ import { FaStar, FaUserCircle } from "react-icons/fa";
 
 const TestimoniCard = ({ item }) => {
   return (
-    <div className="h-80 w-full flex flex-col justify-around border border-gray-300 rounded-lg p-4">
+    <div className="h-80 w-full flex flex-col justify-around shadow-lg border border-gray-100 rounded-lg p-4">
       <div className="flex items-center gap-4">
         <div>
           <FaUserCircle className=" text-5xl mx-auto" />

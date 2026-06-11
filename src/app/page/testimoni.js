@@ -25,7 +25,7 @@ const Testimoni = () => {
             What Our <span className=" text-blue-400">Clients Say</span>
           </p>
         </div>
-        <div className="w-full px-5 overflow-hidden">
+        <div className="w-full px-12 overflow-hidden">
           <Swiper
             modules={[Autoplay, Pagination]}
             spaceBetween={50}
@@ -49,7 +49,7 @@ const Testimoni = () => {
             }}
           >
             {testimoni.map((item) => (
-              <SwiperSlide key={item.id} className="pb-8">
+              <SwiperSlide key={item.id} className="pb-10">
                 <TestimoniCard item={item} />
               </SwiperSlide>
             ))}

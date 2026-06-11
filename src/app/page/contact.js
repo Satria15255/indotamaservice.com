@@ -76,7 +76,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="w-full flex flex-col gap-5 mt-5">
+          <div className="w-full flex flex-col justify-around gap-5 p-5 space-y-2">
             <div className="flex gap-4 w-full">
               <div className="w-full">
                 <label className="font-semibold">Your Name</label>
@@ -91,7 +91,7 @@ const Contact = () => {
                 <input
                   type="email"
                   placeholder="Email"
-                  className="  w-full py-2 rounded-lg bg-white shadow-lgpx-2"
+                  className="  w-full py-2 rounded-lg bg-white shadow-lg px-2"
                 ></input>
               </div>
             </div>
@@ -111,8 +111,8 @@ const Contact = () => {
                 className="  w-full rounded-lg bg-white shadow-lg pb-32 px-2"
               ></input>
             </div>
-            <div className="bg-blue-500 pb-2 rounded-lg w-full mt-3">
-              <button className="bg-blue-400 text-white py-2 w-full rounded-lg px-4 ">
+            <div>
+              <button className="bg-blue-900 text-white hover:bg-white hover:text-black transition duration-200 py-4 w-full rounded-lg px-4 ">
                 Submit
               </button>
             </div>

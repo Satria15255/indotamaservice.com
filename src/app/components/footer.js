@@ -19,8 +19,10 @@ const Footer = () => {
               Indotama<span className="text-blue-500">service.</span>
             </p>
             <p className="mt-2 text-sm max-w-md">
-              Indotama Service offers a trusted solution for your AC service and maintenance needs. We handle a wide range of needs, from AC cleaning and repairs to freon refills and installation of new units, all with professional
-              workmanship..
+              Indotama Service offers a trusted solution for your AC service and
+              maintenance needs. We handle a wide range of needs, from AC
+              cleaning and repairs to freon refills and installation of new
+              units, all with professional workmanship..
             </p>
             <div className="flex gap-2 mt-3">
               <div className="flex items-center gap-1">
@@ -68,7 +70,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-xs md:text-sm text-gray-500 border-t border-gray-600 px-4 pt-6">&copy; 2024 Indotamaservice. All rights reserved.</div>
+        <div className="text-xs md:text-sm text-gray-500 border-t border-gray-600 px-4 pt-6">
+          &copy; 2024 Indotamaservice. All rights reserved.
+        </div>
       </div>
     </motion.div>
   );
