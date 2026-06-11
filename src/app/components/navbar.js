@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaAlignJustify } from "react-icons/fa";
 import FadeInFromTop from "./fadeinfromtop";
 import React from "react";
@@ -8,11 +8,24 @@ import { PiUserBold, PiArrowRightThin } from "react-icons/pi";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 50;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <FadeInFromTop>
       <div>
-        <nav className="grid grid-cols-3 justify-between bg-transparent w-full py-6 px-4 z-50  fixed top-0 ">
+        <nav
+          className={`grid grid-cols-3 items-center  w-full py-6 px-4 z-50  fixed top-0 transition-all duration-300 ease-in-out ${scrolled ? "bg-white shadow-xl" : "bg-transparent"} `}
+        >
           {/* Logo */}
           <div>
             <h1 className="font-bold font-sans text-md md:text-2xl xl:text-3xl  ">

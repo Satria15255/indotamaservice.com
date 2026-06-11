@@ -18,7 +18,7 @@ const Home = () => {
       viewport={{ once: true }}
     >
       <div className="flex md:h-screen grid grid-cols-1 md:grid-cols-2 bg-blue-100 justify-center">
-        <div className="w-auto p-12 flex flex-col justify-center">
+        <div className="w-auto p-12 mt-5 flex flex-col justify-center">
           <p className="text-sm bg-blue-900 text-white rounded-full w-50 flex justify-center items-center h-9 px-1">
             Stay Cool All Year Round
           </p>
