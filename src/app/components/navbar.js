@@ -59,7 +59,7 @@ const Navbar = () => {
             >
               {isOpen ? "X" : <FaAlignJustify />}
             </button>
-            <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4  flex items-center justify-center gap-2 w-1/2">
+            <button className="hidden md:flex bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4 items-center justify-center gap-2 w-1/2">
               Book Now <PiArrowRightThin />{" "}
             </button>
           </div>

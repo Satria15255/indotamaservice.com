@@ -25,7 +25,7 @@ const Testimoni = () => {
             What Our <span className=" text-blue-400">Clients Say</span>
           </p>
         </div>
-        <div className="w-full px-12 overflow-hidden">
+        <div className="w-full px-4 md:px-12 overflow-hidden">
           <Swiper
             modules={[Autoplay, Pagination]}
             spaceBetween={50}

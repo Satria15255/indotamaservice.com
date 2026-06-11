@@ -70,7 +70,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-xs md:text-sm text-gray-500 border-t border-gray-600 px-4 pt-6">
+        <div className="text-xs md:text-sm text-gray-600 border-t border-gray-600 px-4 pt-6">
           &copy; 2024 Indotamaservice. All rights reserved.
         </div>
       </div>

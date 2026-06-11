@@ -17,21 +17,30 @@ const About = () => {
       <div className=" grid grid-cols-1 items-center py-9">
         <div className="flex grid grid-cols-1 md:grid-cols-2 space-y-4 justify-center">
           <div className="flex justify-center pr-2">
-            <img src="/assets/aboutCompany.jpg" alt="About Image" className="w-full h-auto rounded-r-4xl" />
+            <img
+              src="/assets/aboutCompany.webp"
+              alt="About Image"
+              className="w-full h-auto rounded-r-4xl"
+            />
           </div>
           <div className="flex flex-col justify-between p-6 w-auto">
-            <p className="flex justify-center items-center text-sm bg-blue-900 text-white w-50 h-9 rounded-full">About Company</p>
+            <p className="flex justify-center items-center text-sm bg-blue-900 text-white w-50 h-9 rounded-full">
+              About Company
+            </p>
             <h1 className="text-5xl font-bold py-3">
-              Trust your AC maintenance <br /> to the <span className="text-blue-900">experts.</span>
+              Trust your AC maintenance <br /> to the{" "}
+              <span className="text-blue-900">experts.</span>
             </h1>
             <p className="text-sm xl:text-lg py-3 text-gray-600">
-              Indotama Service offers a trusted solution for your AC service and maintenance needs. We handle a wide range of needs, from AC cleaning and repairs to freon refills and installation of new units, all with professional
-              workmanship.
+              Indotama Service offers a trusted solution for your AC service and
+              maintenance needs. We handle a wide range of needs, from AC
+              cleaning and repairs to freon refills and installation of new
+              units, all with professional workmanship.
             </p>
             <div className=" flex gap-8 py-3">
               <div className="flex justify-center items-center gap-2">
                 <div className="bg-blue-100 rounded-full text-blue-900 p-2 shadow-lg">
-                  <TbMapStar size={50} />
+                  <TbMapStar size={40} />
                 </div>
                 <div className="flex flex-col gap-1">
                   <p className="text-4xl font-bold">10+</p>
@@ -40,7 +49,7 @@ const About = () => {
               </div>
               <div className="flex justify-center items-center gap-2">
                 <div className="bg-blue-100 rounded-full text-blue-900 p-2 shadow-lg">
-                  <IoLocationSharp size={50} />
+                  <IoLocationSharp size={40} />
                 </div>
                 <div className="flex flex-col gap-1">
                   <p className="text-4xl font-bold">100+</p>
@@ -48,8 +57,10 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="w-2/5 mt-3">
-              <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4 w-full px-4  ">Consultation</button>
+            <div className="w-1/2 md:w-2/5 mt-3">
+              <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4 w-full px-4  ">
+                Consultation
+              </button>
             </div>
           </div>
         </div>

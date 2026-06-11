@@ -14,7 +14,7 @@ const Contact = () => {
       transition={{ duration: 1.0 }} // Animasi selama 1 detik
       viewport={{ once: true }}
     >
-      <div className="flex flex-col px-4 bg-blue-100 ">
+      <div className="flex flex-col py-5 px-4 bg-blue-100 ">
         <div className="flex grid grid-cols-1 md:grid-cols-2 gap-4 justify-center">
           <div className="w-auto flex flex-col justify-around md:p-5 space-y-2">
             <div className="flex flex-col gap-3">
@@ -26,7 +26,7 @@ const Contact = () => {
                 soon as possible.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 space-y-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-white shadow-lg flex flex-col justify-around rounded-lg h-40 p-5">
                 <p className="flex items-center gap-3 text-xl font-bold">
                   {" "}
@@ -49,8 +49,6 @@ const Contact = () => {
                 <p className="text-sm text-gray-600">toll-free call</p>
                 <p className="text-sm font-bold">081234567</p>
               </div>
-            </div>
-            <div className="grid grid-cols-1 gap-5 md:grid-cols-2 space-y-4">
               <div className="bg-white shadow-lg flex flex-col justify-around rounded-lg h-40 p-5">
                 <p className="text-xl font-bold flex gap-3">
                   <FaMapLocationDot size={30} className="text-blue-900" />
@@ -76,7 +74,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="w-full flex flex-col justify-around gap-5 p-5 space-y-2">
+          <div className="w-full flex flex-col justify-around gap-5 md:p-5 space-y-2">
             <div className="flex gap-4 w-full">
               <div className="w-full">
                 <label className="font-semibold">Your Name</label>

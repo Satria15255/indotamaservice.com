@@ -20,12 +20,10 @@ const Services = () => {
             Ser<span className="text-blue-400">vices</span>
           </p>
         </div>
-        <div>
-          <div className="container grid grid-cols-1 md:grid-cols-3 gap-4 ">
-            {service.map((service) => (
-              <ServicesCard key={service.id} service={service} />
-            ))}
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-4 ">
+          {service.map((service) => (
+            <ServicesCard key={service.id} service={service} />
+          ))}
         </div>
       </div>
     </motion.div>
