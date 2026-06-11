@@ -2,6 +2,9 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { AiTwotoneMessage } from "react-icons/ai";
+import { PiPhoneCallDuotone } from "react-icons/pi";
+import { FaMapLocationDot, FaRegClock } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -11,43 +14,64 @@ const Contact = () => {
       transition={{ duration: 1.0 }} // Animasi selama 1 detik
       viewport={{ once: true }}
     >
-      <div className="flex flex-col p-4 mb-5 ">
+      <div className="flex flex-col px-4 bg-blue-100 ">
         <div className="flex grid grid-cols-1 md:grid-cols-2 gap-4 justify-center">
-          <div className="w-auto flex flex-col justify-around md:p-5 space-y-4">
+          <div className="w-auto flex flex-col justify-around md:p-5 space-y-2">
             <div className="flex flex-col gap-3">
               <h1 className="font-bold text-4xl">Get in Touch</h1>
               <p className="text-sm text-gray-600">
-                Have questions or need professional AC services? Our team is ready to help with installation, maintenance, repairs, and consultations. Contact us today and we'll get back to you as soon as possible.
+                Have questions or need professional AC services? Our team is
+                ready to help with installation, maintenance, repairs, and
+                consultations. Contact us today and we'll get back to you as
+                soon as possible.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 space-y-4">
-              <div>
-                <p className="text-xl font-bold">Chat to us : </p>
-                <p className="text-sm text-gray-600"> Our friendly team is here to help</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 space-y-4">
+              <div className="bg-white shadow-lg flex flex-col justify-around rounded-lg h-40 p-5">
+                <p className="flex items-center gap-3 text-xl font-bold">
+                  {" "}
+                  <AiTwotoneMessage size={30} className="text-blue-900" /> Chat
+                  to us :{" "}
+                </p>
+
+                <p className="text-sm text-gray-600">
+                  {" "}
+                  Our friendly team is here to help
+                </p>
                 <p className="text-sm  font-bold">indotamaservices@gmail.com</p>
               </div>
-              <div>
-                <p className="text-xl font-bold">Call us : </p>
+              <div className="bg-white shadow-lg flex flex-col justify-around rounded-lg h-40 p-5">
+                <p className="text-xl font-bold flex gap-3">
+                  {" "}
+                  <PiPhoneCallDuotone size={30} className="text-blue-900" />
+                  Call us :{" "}
+                </p>
                 <p className="text-sm text-gray-600">toll-free call</p>
                 <p className="text-sm font-bold">081234567</p>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 space-y-4">
-              <div>
-                <p className="text-xl font-bold">Visit us : </p>
-                <p className="text-sm text-gray-600">Come say hello at our office</p>
+            <div className="grid grid-cols-1 gap-5 md:grid-cols-2 space-y-4">
+              <div className="bg-white shadow-lg flex flex-col justify-around rounded-lg h-40 p-5">
+                <p className="text-xl font-bold flex gap-3">
+                  <FaMapLocationDot size={30} className="text-blue-900" />
+                  Visit us :{" "}
+                </p>
+                <p className="text-sm text-gray-600">
+                  Come say hello at our office
+                </p>
                 <p className="text-sm font-bold">
-                  Business Center Building <br />
-                  Jl. Ahmad Yani No. 45
+                  Business Center Building <br /> Jl. Ahmad Yani No. 45
                   <br />
-                  Bojonegoro, East Java 62112
-                  <br />
-                  Indonesia
+                  Bojonegoro, East Java 62112, Indonesia
                 </p>
               </div>
-              <div>
-                <p className="text-xl font-bold">Operactional Time : </p>
-                <p className="text-sm font-bold">08:00 AM - 6:00 PM Every Day</p>
+              <div className="bg-white shadow-lg flex flex-col justify-around rounded-lg h-40 p-5">
+                <p className="text-xl font-bold flex gap-3">
+                  <FaRegClock size={30} className="text-blue-900" />
+                  Operactional Time :{" "}
+                </p>
+                <p className="text-sm font-bold">Monday - Sunday</p>
+                <p className="text-sm font-bold">08:00 AM - 6:00 PM</p>
               </div>
             </div>
           </div>
@@ -55,24 +79,42 @@ const Contact = () => {
           <div className="w-full flex flex-col gap-5 mt-5">
             <div className="flex gap-4 w-full">
               <div className="w-full">
-                <label>Your Name</label>
-                <input type="text" placeholder="Username" className="border w-full py-2 rounded-lg border-gray-200 px-2"></input>
+                <label className="font-semibold">Your Name</label>
+                <input
+                  type="text"
+                  placeholder="Username"
+                  className="  w-full py-2 rounded-lg bg-white shadow-lg px-2"
+                ></input>
               </div>
               <div className="w-full">
-                <label>Your Email</label>
-                <input type="email" placeholder="Email" className="border w-full py-2 rounded-lg border-gray-200 px-2"></input>
+                <label className="font-semibold">Your Email</label>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="  w-full py-2 rounded-lg bg-white shadow-lgpx-2"
+                ></input>
               </div>
             </div>
             <div className="w-full">
-              <label>Your Services</label>
-              <input type="text" placeholder="Yout Service Chosee" className="border w-full rounded-lg border-gray-200 py-2 px-2"></input>
+              <label className="font-semibold">Your Services</label>
+              <input
+                type="text"
+                placeholder="Yout Service Chosee"
+                className="  w-full rounded-lg bg-white shadow-lg py-2 px-2"
+              ></input>
             </div>
             <div>
-              <label>Your Message</label>
-              <input type="text-area" placeholder="Message" className="border w-full rounded-lg border-gray-200 pb-32 px-2"></input>
+              <label className="font-semibold">Your Message</label>
+              <input
+                type="text-area"
+                placeholder="Message"
+                className="  w-full rounded-lg bg-white shadow-lg pb-32 px-2"
+              ></input>
             </div>
             <div className="bg-blue-500 pb-2 rounded-lg w-full mt-3">
-              <button className="bg-blue-400 text-white py-2 w-full rounded-lg px-4 ">Submit</button>
+              <button className="bg-blue-400 text-white py-2 w-full rounded-lg px-4 ">
+                Submit
+              </button>
             </div>
           </div>
         </div>
