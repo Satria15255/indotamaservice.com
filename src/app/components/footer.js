@@ -15,14 +15,14 @@ const Footer = () => {
       <div className="bg-blue-200 h-auto px-3 py-6 flex flex-col justify-center ">
         <div className=" flex flex-col md:flex-row justify-around py-4">
           <div className="flex pb-9 flex-col">
-            <p className="text-xl lg:text-3xl font-bold">
+            <p className="text-md md:text-xl xl:text-3xl font-bold">
               Indotama<span className="text-blue-500">service.</span>
             </p>
-            <p className="mt-2 text-sm max-w-md">
+            <p className="mt-2 text-sm md:text-xs lg:text-sm w-50">
               Indotama Service offers a trusted solution for your AC service and
               maintenance needs. We handle a wide range of needs, from AC
               cleaning and repairs to freon refills and installation of new
-              units, all with professional workmanship..
+              units.
             </p>
             <div className="flex gap-2 mt-3">
               <div className="flex items-center gap-1">
@@ -37,7 +37,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col">
-            <h1 className="text-xl lg:text-xl font-bold mb-2">Services</h1>
+            <h1 className="text-md md:text-xl xl:text-3xl font-bold mb-2">
+              Services
+            </h1>
             <div className="text-sm lg:text-md pl-3 space-y-2 ">
               <ol>AC Installation</ol>
               <ol>AC Repair</ol>
@@ -48,7 +50,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col">
-            <h1 className="text-xl lg:text-xl font-bold mb-2">Company</h1>
+            <h1 className="text-md md:text-xl xl:text-3xl font-bold mb-2">
+              Company
+            </h1>
             <div className="text-sm lg:text-md pl-3 space-y-2">
               <ol>About us</ol>
               <ol>Career</ol>
@@ -59,7 +63,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col">
-            <h1 className="text-xl lg:text-xl font-bold mb-2">Service Area</h1>
+            <h1 className="text-md md:text-xl xl:text-3xl font-bold mb-2">
+              Service Area
+            </h1>
             <div className="text-sm lg:text-md pl-3 space-y-2">
               <ol>City Center</ol>
               <ol>City North</ol>
@@ -70,7 +76,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-xs md:text-sm text-gray-600 border-t border-gray-600 px-4 pt-6">
+        <div className="text-xs md:text-sm text-gray-700 border-t border-gray-600 px-4 pt-6">
           &copy; 2024 Indotamaservice. All rights reserved.
         </div>
       </div>
