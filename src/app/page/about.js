@@ -20,18 +20,18 @@ const About = () => {
             <img
               src="/assets/aboutCompany.webp"
               alt="About Image"
-              className="w-full h-auto rounded-r-4xl"
+              className="w-full h-auto rounded-r-4xl object-center object-cover"
             />
           </div>
           <div className="flex flex-col justify-between p-6 w-auto">
-            <p className="flex justify-center items-center text-sm bg-blue-900 text-white w-50 h-9 rounded-full">
+            <p className="flex justify-center items-center text-sm md:text-xs lg:text-sm bg-blue-900 text-white w-50 h-9 rounded-full">
               About Company
             </p>
-            <h1 className="text-5xl font-bold py-3">
-              Trust your AC maintenance <br /> to the{" "}
-              <span className="text-blue-900">experts.</span>
+            <h1 className="text-5xl md:text-4xl lg:text-6xl font-bold py-3">
+              Trust your AC maintenance to the
+              <span className="text-blue-900"> experts.</span>
             </h1>
-            <p className="text-sm xl:text-lg py-3 text-gray-600">
+            <p className="text:xs md:text-sm lg:text-lg py-3 text-gray-600">
               Indotama Service offers a trusted solution for your AC service and
               maintenance needs. We handle a wide range of needs, from AC
               cleaning and repairs to freon refills and installation of new
@@ -44,7 +44,9 @@ const About = () => {
                 </div>
                 <div className="flex flex-col gap-1">
                   <p className="text-4xl font-bold">10+</p>
-                  <p className="text-sm text-gray-600">Operational Area</p>
+                  <p className="text-sm md:text-xs lg:text-sm text-gray-600">
+                    Operational Area
+                  </p>
                 </div>
               </div>
               <div className="flex justify-center items-center gap-2">
@@ -53,12 +55,14 @@ const About = () => {
                 </div>
                 <div className="flex flex-col gap-1">
                   <p className="text-4xl font-bold">100+</p>
-                  <p className="text-sm text-gray-600">Location Handled</p>
+                  <p className="text-sm md:text-xs lg:text-sm text-gray-600">
+                    Location Handled
+                  </p>
                 </div>
               </div>
             </div>
             <div className="w-1/2 md:w-2/5 mt-3">
-              <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4 w-full px-4  ">
+              <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white text-md md:text-sm lg:text-lg py-4 md:py-2 lg:py-4 w-full px-4  ">
                 Consultation
               </button>
             </div>
