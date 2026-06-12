@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { IoLocationSharp } from "react-icons/io5";
 import { TbMapStar } from "react-icons/tb";
+import aboutImage from "../assets/aboutCompany.webp";
 
 const About = () => {
   return (
@@ -17,8 +18,8 @@ const About = () => {
       <div className=" grid grid-cols-1 items-center py-9">
         <div className="flex grid grid-cols-1 md:grid-cols-2 space-y-4 justify-center">
           <div className="flex justify-center pr-2">
-            <img
-              src="/assets/aboutCompany.webp"
+            <Image
+              src={aboutImage}
               alt="About Image"
               className="w-full h-auto rounded-r-4xl object-center object-cover"
             />

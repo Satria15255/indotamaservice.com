@@ -22,7 +22,7 @@ const Contact = () => {
               <p className="text-sm text-gray-600">
                 Have questions or need professional AC services? Our team is
                 ready to help with installation, maintenance, repairs, and
-                consultations. Contact us today and we'll get back to you as
+                consultations. Contact us today and we will get back to you as
                 soon as possible.
               </p>
             </div>
@@ -52,7 +52,7 @@ const Contact = () => {
               <div className="bg-white shadow-lg flex flex-col justify-around rounded-lg h-40 p-5">
                 <p className="text-xl font-bold flex gap-3">
                   <FaMapLocationDot size={30} className="text-blue-900" />
-                  Visit us :{" "}
+                  Visit us :
                 </p>
                 <p className="text-sm text-gray-600">
                   Come say hello at our office
@@ -66,7 +66,7 @@ const Contact = () => {
               <div className="bg-white shadow-lg flex flex-col justify-around rounded-lg h-40 p-5">
                 <p className="text-xl font-bold flex gap-3">
                   <FaRegClock size={30} className="text-blue-900" />
-                  Operactional Time :{" "}
+                  Operational Time :{" "}
                 </p>
                 <p className="text-sm font-bold">Monday - Sunday</p>
                 <p className="text-sm font-bold">08:00 AM - 6:00 PM</p>

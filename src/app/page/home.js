@@ -2,12 +2,14 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import {
   PiMedal,
   PiShieldCheckBold,
   PiClock,
   PiArrowRightThin,
 } from "react-icons/pi";
+import heroImage from "../assets/hero-section.webp";
 
 const Home = () => {
   return (
@@ -64,8 +66,8 @@ const Home = () => {
           </div>
         </div>
         <div className="w-full h-auto md:mt-16 pt-10 pl-2">
-          <img
-            src="/assets/hero-section.webp"
+          <Image
+            src={heroImage}
             alt="Home Image"
             className="w-full h-full object-cover object-center rounded-l-4xl "
           />
