@@ -17,47 +17,47 @@ const Home = () => {
       transition={{ duration: 1.0 }} // Animasi selama 1 detik
       viewport={{ once: true }}
     >
-      <div className="flex md:h-screen grid grid-cols-1 md:grid-cols-2 bg-blue-100 justify-center">
-        <div className="w-auto p-4 mt-16 md:p-12 md:mt-5 flex flex-col justify-center">
-          <p className="text-sm bg-blue-900 text-white rounded-full w-50 flex justify-center items-center h-9 px-1">
+      <div className="flex lg:h-screen grid grid-cols-1 md:grid-cols-2 bg-blue-100 justify-center">
+        <div className="w-auto p-4 mt-16 md:p-12 md:mt-10 flex flex-col justify-center">
+          <p className="text-sm md:text-xs lg:text-sm bg-blue-900 text-white rounded-full w-50 flex justify-center items-center h-9 px-1">
             Stay Cool All Year Round
           </p>
-          <h1 className="text-5xl lg:text-6xl font-bold py-4">
+          <h1 className="text-5xl md:text-4xl lg:text-6xl font-bold py-4">
             Fast, Reliable & Affordable Air Conditioning
             <span className="text-blue-900"> Services</span>
           </h1>
-          <p className="max-w-xl text-gray-500 text:xs md:text-lg ">
+          <p className="max-w-xl text-gray-500 text:xs md:text-sm lg:text-lg ">
             Professional air conditioning solutions for homes and businesses.
             Available for installation, cleaning, maintenance, and emergency
             repairs.
           </p>
-          <div className="w-1/2 md:w-2/5 mt-3">
-            <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4 w-full px-4 flex items-center justify-center gap-2">
+          <div className="w-1/2 lg:w-2/5 mt-3">
+            <button className="bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white text-md md:text-sm lg:text-lg py-4 md:py-2 lg:py-4 w-full px-4 flex items-center justify-center gap-2">
               Book Now <PiArrowRightThin />{" "}
             </button>
           </div>
           <div className="grid grid-cols-3 gap-9 mt-12 max-w-screen">
-            <div className="flex flex-col md:flex-row items-center gap-2">
+            <div className="flex flex-col lg:flex-row items-center gap-2">
               <div className=" p-2 text-blue-900 bg-white shadow-lg rounded-full ">
                 <PiClock size={40} />
               </div>
-              <p className="text-sm text-center md:text-left">
+              <p className="text-sm md:text-xs lg:text-sm text-center lg:text-left">
                 Fast <br /> Response
               </p>
             </div>
-            <div className="flex flex-col md:flex-row items-center gap-2">
+            <div className="flex flex-col lg:flex-row items-center gap-2">
               <div className=" p-2 text-blue-900 bg-white shadow-lg rounded-full ">
                 <PiMedal size={40} />
               </div>
-              <p className="text-sm text-center md:text-left">
+              <p className="text-sm md:text-xs lg:text-sm text-center lg:text-left">
                 Expert <br /> Technicians
               </p>
             </div>
-            <div className="flex flex-col md:flex-row items-center gap-2">
+            <div className="flex flex-col lg:flex-row items-center gap-2">
               <div className=" p-2 text-blue-900 bg-white shadow-lg rounded-full ">
                 <PiShieldCheckBold size={40} />
               </div>
-              <p className="text-sm text-center md:text-left">
+              <p className="text-sm md:text-xs lg:text-sm text-center lg:text-left">
                 Guaranteed <br /> Satisfaction
               </p>
             </div>

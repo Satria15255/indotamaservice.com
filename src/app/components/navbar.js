@@ -28,7 +28,7 @@ const Navbar = () => {
         >
           {/* Logo */}
           <div>
-            <h1 className="font-bold font-sans text-md md:text-2xl xl:text-3xl  ">
+            <h1 className="font-bold font-sans text-md md:text-xl xl:text-3xl  ">
               Indotama<span className="text-blue-400">service.</span>
             </h1>
           </div>
@@ -36,16 +36,16 @@ const Navbar = () => {
           {/* Navigation */}
           <div>
             <ul className="flex hidden md:flex space-x-9 ">
-              <li className="hover:text-blue-500 text-md xl:text-lg transition duration-100">
+              <li className="hover:text-blue-500 text-md md:text-sm xl:text-lg transition duration-100">
                 <a href="#">Home</a>
               </li>
-              <li className="hover:text-blue-500 text-md xl:text-lg transition duration-100">
+              <li className="hover:text-blue-500 text-md md:text-sm xl:text-lg transition duration-100">
                 <a href="#">About</a>
               </li>
-              <li className="hover:text-blue-500 text-md xl:text-lg transition duration-100">
+              <li className="hover:text-blue-500 text-md md:text-sm xl:text-lg transition duration-100">
                 <a href="#">Services</a>
               </li>
-              <li className="hover:text-blue-500 text-md xl:text-lg transition duration-100">
+              <li className="hover:text-blue-500 text-md md:text-sm xl:text-lg transition duration-100">
                 <a href="#">Contact</a>
               </li>
             </ul>
@@ -59,7 +59,7 @@ const Navbar = () => {
             >
               {isOpen ? "X" : <FaAlignJustify />}
             </button>
-            <button className="hidden md:flex bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-4 items-center justify-center gap-2 w-1/2">
+            <button className="hidden md:flex text-md md:text-sm lg:text-lg bg-blue-900 rounded-4xl hover:bg-white hover:text-black transition duration-200 border border-gray-300 text-white py-2 lg:py-4 items-center justify-center gap-2 w-1/2">
               Book Now <PiArrowRightThin />{" "}
             </button>
           </div>
