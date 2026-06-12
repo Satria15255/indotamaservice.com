@@ -12,10 +12,10 @@ const ServiceCard = ({ service }) => {
         </p>
       </div>
       <div className="flex flex-col items-center justify-around">
-        <h2 className="text-lg xl:text-xl h-12 font-semibold">
+        <h2 className="text-lg xl:text-xl h-12 font-semibold text-center">
           {service.title}
         </h2>
-        <p className="max-w-lg text-gray-600 text-center text-xs xl:text-sm py-4">
+        <p className="max-w-lg text-gray-600 text-center text-xs xl:text-sm h-18 py-2">
           {service.description}
         </p>
         <p className="text-xl text-blue-900 font-bold hover:underline flex items-center gap-2">

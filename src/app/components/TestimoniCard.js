@@ -16,11 +16,15 @@ const TestimoniCard = ({ item }) => {
         </div>
       </div>
       <div>
-        <p className=" text-gray-700 text-sm md:text-lg mt-2">{item.text}</p>
+        <p className=" text-gray-700 text:xs md:text-sm lg:text-lg mt-2">
+          {item.text}
+        </p>
       </div>
       <div className="flex flex-col gap-2">
         <h3 className="text-xl font-semibold">{item.name}</h3>
-        <p className="text-gray-500 text-sm md:text-lg ">{item.role}</p>
+        <p className="text-gray-700 text:xs md:text-sm lg:text-lg ">
+          {item.role}
+        </p>
       </div>
     </div>
   );

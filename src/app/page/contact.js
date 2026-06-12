@@ -15,7 +15,7 @@ const Contact = () => {
       viewport={{ once: true }}
     >
       <div className="flex flex-col py-5 px-4 bg-blue-100 ">
-        <div className="flex grid grid-cols-1 md:grid-cols-2 gap-4 justify-center">
+        <div className="flex grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center">
           <div className="w-auto flex flex-col justify-around md:p-5 space-y-2">
             <div className="flex flex-col gap-3">
               <h1 className="font-bold text-4xl">Get in Touch</h1>
